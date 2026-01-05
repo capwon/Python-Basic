@@ -32,17 +32,17 @@
 # 한줄에 여러개를 출력하고 싶으면 콤마(,)를 사용
 # 만약 print()를 사용할 경우 빈 한줄이 출력
 
-# name="파이썬"
-# age=28
-# height=188
+# name="이정이"
+# age=22
+# height=195
 # print(name)     # 변수 출력, 변수에 저장된 값을 출력
 # print()         # 빈 한줄 출력
 # print(age)
 # print(height)
-# print("hi")     # 값을 바로 출력
+# print("go away")     # 값을 바로 출력
 # print()
-# print(5)
-# print(5*10)
+# print(7777)
+# print(7777*265)
 # print(name, age, height, "HELLO")
 
 
@@ -55,7 +55,7 @@
 # print(type(변수))
 # 위 형식으로 print()안에 넣어서 주로 사용
 
-# int0=1                     # int0이라는 변수에 int 라료형인 1 저장
+# int0=1                     # int0이라는 변수에 int 자료형인 1 저장
 # float0=3.14
 # str0="test"
 # type(int0)                 # 동작은 하지만 자료형을 눈으로 볼 순 없음
@@ -70,4 +70,44 @@
 # 형 변환(casting)
 # str(변수 or 값)   => 변수 or 값을 str 자료형으로 변환
 # float(변수 or 값) => 변수 or 값을 float 자료형으로 변환
-# int(변수 or 값)   => 
+# int(변수 or 값)   => 변수 or 값을 float 자료형으로 변환
+# 단순히 연산할때만 사용하면 원본의 값은 변하지 않음
+# 운본의 자료형을 변환 시키기 위해선 변수에 값을 다시 넣어야 함[ ex. a = int(a)]
+
+# var1 = 2
+# var2 = "31"
+# result = var1 + int(var2)   # result 변수에 var1 변수 + int 자료형으로 변환한 var2 변수 저장
+# print(result)
+# print(type(var2))           # 변수 var2 자료형을 출력, result 변수에는 int 자료형으로 계산이 되었지만
+#                             # 실제 변수의 자료형은 변환 안됨
+# var2 = int(var2)            # var2 변수에 int 자료형으로 변환한 var2 변수 저장
+# print(type(var2))           # 변수 var2 자료형을 출력
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# input("문자" or 변수)
+# "문자" 또는 변수를 출력한 후 엔터키를 누르기 전까지 키보드 입력을 받음
+# 변수 = input()만 사용했을 경우 입력 값을 저장하지 못함
+# 위 형식을 주로 사용, input()만 사용했을 경우 입력 값을 저장하지 못함
+# input()은 무조건 str 자료형으로 값을 저장함
+
+# var1 = 2
+# var2 = input("Insert anything : ")
+# print(var2)
+# print(type(var2))
+
+# var2 = int(var2)
+# print(type(var2))
+
+# sum = var1 + var2
+# print(sum)
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+print("안녕하세요, 이름을 입력해 주세요.")
+name = input()      # 입력할 때 어떤 문자가 출력 없이 바로 입력하려면, input() 사용, 괄호 안에 어떤 것을 넣지 않음
+print("안녕하세요", name, "님 키를 입력해 주세요")      # 여러개를 출력할 때 콤마를 사용함
