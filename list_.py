@@ -114,4 +114,47 @@
 # sort()함수는 리스트의 내용을 오름차순으로 정렬
 
 # insert()와 같이 리스트 변수와 .을 같이 사용하는 함수는 리스트에서만 사용가능하고
-# del(), len(), sum()의 경우는 리스트 말고도 다른 자료형에서도 사용 가
+# del(), len(), sum()의 경우는 리스트 말고도 다른 자료형에서도 사용 가능
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+list0 = []
+print(list0)
+print()
+
+print('Q1.append 함수를 사용해 list0에 1,2,3,4,5,6,7,8,9 를 차례로 추가하시오.(반복문을 사용해도 좋다.)')
+for i in range(1, 10, 1):   # append가 반복되므로 반복문을 쓴다
+    list0.append(i)
+print(list0)
+print()
+
+print('Q2.insert 함수를 사용해 list0의 0번째에 0을 추가하시오.')
+list0.insert(0,0)
+print(list0)
+print()
+
+print('Q3.del 함수를 이용해 list0의 3번째 원소를 삭제하시오.')
+del(list0[3])
+print(list0)
+print()
+
+print('Q4.del 함수를 이용해 list0의 5번째 원소를 삭제하시오.')
+del(list0[5])
+print(list0)
+print()
+
+print('Q5.remove 함수를 이용해 list0에서 1을 삭제하시오.')
+list0.remove(1)
+print(list0)
+print()
+
+print('Q6.index 함수를 이용해 list0 에서 5가 몇 번째에 위치했는지 출력하시오.')
+list0.index(5)
+print(list0)
+
+print('Q7.index 함수를 이용해 list0에서 6이 존재하는지 확인하시오.몇 번째에 위치했는지 출력하시오')
+print()
+
+print('Q8.len 함수를 이용해 list0의 원소의 개수를 출력 하시오.')
