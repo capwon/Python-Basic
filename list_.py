@@ -67,7 +67,7 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-# name = [ '지훈','서준','시찬','윤서']
+# name = ['지훈','서준','시찬','윤서']
 # score = [ 92, 96, 98, 100]
 # avg = (score[0] + score[1] + score[2] + score[3])/4
 # print("평균은", avg, "이고", name[3], "가 가장 점수가 높습니다")
@@ -90,7 +90,7 @@
 # 만약 삭제한 위치 뒤에 값이 있으면 앞으로 당겨짐
 # 인덱스 번호가 범위를 벗어나면 에러 발생
 
-# 리스트명.remove(식제할 값)
+# 리스트명.remove(삭제할 값)
 # remove() 함수는 리스트에서 특정 값을 삭제
 # 만약 삭제할 값이 여러개면 제일 앞에 있는 한개의 값만 삭제
 # 만약 삭제할 값이 없으면 에러 발생
@@ -120,41 +120,90 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-list0 = []
-print(list0)
-print()
+# list0 = []
+# print(list0)
+# print()
 
-print('Q1.append 함수를 사용해 list0에 1,2,3,4,5,6,7,8,9 를 차례로 추가하시오.(반복문을 사용해도 좋다.)')
-for i in range(1, 10, 1):   # append가 반복되므로 반복문을 쓴다
-    list0.append(i)
-print(list0)
-print()
+# print('Q1.append 함수를 사용해 list0에 1,2,3,4,5,6,7,8,9 를 차례로 추가하시오.(반복문을 사용해도 좋다.)')
+# for i in range(1, 10, 1):   # append가 반복되므로 반복문을 쓴다
+#     list0.append(i)
+# print(list0)
+# print()
 
-print('Q2.insert 함수를 사용해 list0의 0번째에 0을 추가하시오.')
-list0.insert(0,0)
-print(list0)
-print()
+# print('Q2.insert 함수를 사용해 list0의 0번째에 0을 추가하시오.')
+# list0.insert(0,0)
+# print(list0)
+# print()
 
-print('Q3.del 함수를 이용해 list0의 3번째 원소를 삭제하시오.')
-del(list0[3])
-print(list0)
-print()
+# print('Q3.del 함수를 이용해 list0의 3번째 원소를 삭제하시오.')
+# del(list0[3])
+# print(list0)
+# print()
 
-print('Q4.del 함수를 이용해 list0의 5번째 원소를 삭제하시오.')
-del(list0[5])
-print(list0)
-print()
+# print('Q4.del 함수를 이용해 list0의 5번째 원소를 삭제하시오.')
+# del(list0[5])
+# print(list0)
+# print()
 
-print('Q5.remove 함수를 이용해 list0에서 1을 삭제하시오.')
-list0.remove(1)
-print(list0)
-print()
+# print('Q5.remove 함수를 이용해 list0에서 1을 삭제하시오.')
+# list0.remove(1)
+# print(list0)
+# print()
 
-print('Q6.index 함수를 이용해 list0 에서 5가 몇 번째에 위치했는지 출력하시오.')
-list0.index(5)
-print(list0)
+# print('Q6.index 함수를 이용해 list0 에서 5가 몇 번째에 위치했는지 출력하시오.')
+# list0.index(5)
+# print(list0)
 
-print('Q7.index 함수를 이용해 list0에서 6이 존재하는지 확인하시오.몇 번째에 위치했는지 출력하시오')
-print()
+# print('Q7.index 함수를 이용해 list0에서 6이 존재하는지 확인하시오.몇 번째에 위치했는지 출력하시오')
+# print()
 
-print('Q8.len 함수를 이용해 list0의 원소의 개수를 출력 하시오.')
+# print('Q8.len 함수를 이용해 list0의 원소의 개수를 출력 하시오.')
+# print(len(list0))
+# print()
+
+# print('Q9.print(list0)을 하여 리스트를 출력하시오.')
+# print(list0)
+# print()
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# week = ['Mon', 'Thu', 'Wed', 'Thu', 'Fri']
+# print(week)
+# print()
+
+# print("Q1.'Sat'와 'Sun'를 차례로 뒤에 추가하시오")      # 따옴표 종류는 달리하기
+# week.append('Sat')
+# week.append('Sun')
+# print(week)
+# print()
+
+# print("Q2.첫 번째 'Thu'를 지우고 그 자리에 'Tue'를 삽입하시오.")
+# week.remove("Thu")
+# week.insert(1,'Tue')
+# print(week)
+# print()
+
+# print("Q3.'Wed'의 인덱스를 출력하시오.")
+# print(week.index('Wed'))
+# print()
+
+# print("Q4.week리스트 변수의 원소의 개수를 출력하시오.")
+# print(len(week))
+# print()
+
+# print("Q5.print(week)를 실행하시오.")
+# print(week)
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# name = ['지훈','서준','시찬','윤서']
+# score = [92, 96, 98, 100]
+# avg = sum(score)/len(name)
+# print("평균은", avg, "이고", name[3], "가 가장 점수가 높습니다")
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
