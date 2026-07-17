@@ -146,13 +146,14 @@
 # print()
 
 # print('Q5.remove 함수를 이용해 list0에서 1을 삭제하시오.')
-# list0.remove(1)
+# print(list0.remove(1))
 # print(list0)
 # print()
 
 # print('Q6.index 함수를 이용해 list0 에서 5가 몇 번째에 위치했는지 출력하시오.')
 # list0.index(5)
 # print(list0)
+# print()
 
 # print('Q7.index 함수를 이용해 list0에서 6이 존재하는지 확인하시오.몇 번째에 위치했는지 출력하시오')
 # print()
@@ -184,6 +185,7 @@
 # week.insert(1,'Tue')
 # print(week)                                                           
 # print()                                                                  
+
 # print("Q3.'Wed'의 인덱스를 출력하시오.")
 # print(week.index('Wed'))
 # print()
