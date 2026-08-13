@@ -202,9 +202,9 @@
 
 
 # name = ['지훈','서준','시찬','윤서']
-# score = [92, 96, 98, 100]
+# score = [92,400, 98, 100]
 # avg = sum(score)/len(name)
-# print("평균은", avg, "이고", name[3], "가 가장 점수가 높습니다")
+# print("평균은", avg, "이고", name[1], "이가 가장 점수가 높습니다")
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -220,7 +220,7 @@
 #     if(score.count(0) == 1):       # 0이 있나 확인하기
 #         score.remove(0)
 #         print('평균은',sum(score)//len(score),'입니다.')        # //는 정수로 나타내는 기호
-#         
+        
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -266,11 +266,11 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-Cafe = ['Starlucks', 'Mollys', 'Emiya', 'FomAFams']
-Main = ['Americano', 'Cappuccino', 'Cafelatte', 'Barista Americano']
-Price = [3700, 4600, 3200, 4700]
-Location = ['A Street', 'B Street', 'C Street', 'D Street']
-CafeTable = [Cafe, Main, Price, Location]
+# Cafe = ['Starlucks', 'Mollys', 'Emiya', 'FomAFams']
+# Main = ['Americano', 'Cappuccino', 'Cafelatte', 'Barista Americano']
+# Price = [3700, 4600, 3200, 4700]
+# Location = ['A Street', 'B Street', 'C Street', 'D Street']
+# CafeTable = [Cafe, Main, Price, Location]
 # print(CafeTable)
 # print()
 
