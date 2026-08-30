@@ -101,5 +101,22 @@
 # 1 2 3 4
 # 1 2 3 4 5 
 
+# k= 0
+# row = int(input('Input row count.\n'))
+# print()
+
+# for i in range(1, row+1, 1):
+#     k = 0
+#     for j in range(0, i, 1):
+#         k = k+1
+#         print(k, end=' ')
+#     print()
+
+
 row = int(input('Input row count.\n'))
 print()
+
+for i in range(1, row+1, 1):
+    for j in range(1, i+1, 1):
+        print(j, end=' ')
+    print()
