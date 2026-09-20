@@ -121,13 +121,31 @@
 # 100개 이하의 정수를 입력 받다가 0이 입력되면 0을 제외하고 그 때깢 입력 받은 개수를 출력한 후 입력 받은 정수를
 # 차례로 출력하되 그 수가 홀수이면 2배한 값을, 짝수이면 2로 나눈 몫을 출력하는 프로그램
 
-num = list(map(int, input().split()))       # 문제를 보면 0을 마지막에 입력하는 것인데 한줄로 입력하고 0이 들어가는 순간 끝이기 때문에
-                                            # 굳이 반복에 조건을 넣어서 break를 할 필요 없음
-del(num[len(num)-1])                        # 0이 들어가는 순간 끝나기 때문에 0이 제일 마지막에 저장되어 제일 마지막 값을 삭제
+# num = list(map(int, input().split()))       # 문제를 보면 0을 마지막에 입력하는 것인데 한줄로 입력하고 0이 들어가는 순간 끝이기 때문에
+#                                             # 굳이 반복에 조건을 넣어서 break를 할 필요 없음
+# del(num[len(num)-1])                        # 0이 들어가는 순간 끝나기 때문에 0이 제일 마지막에 저장되어 제일 마지막 값을 삭제
 
-print(len(num))
-for i in num:
-    if(i % 2 == 0):                         # 짝수인 경우
-        print(i // 2, end=' ')
-    else:                                   # 홀수인 경우
-        print(i * 2, end=' ')
+# print(len(num))
+# for i in num:
+#     if(i % 2 == 0):                         # 짝수인 경우
+#         print(i // 2, end=' ')
+#     else:                                   # 홀수인 경우
+#         print(i * 2, end=' ')
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# def solution(nums):
+#     return max(nums)
+
+# nums = list(map(int, input().split()))
+# val = solution(nums)
+# print(val)
+
+
+def solution(nums):
+    return
+    if (nums%2 ==0):
+        print
+        
