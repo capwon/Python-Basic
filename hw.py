@@ -1,7 +1,8 @@
 # 10개의 자연수를 리스트에 입력 받아 그 중 가장 큰수를 출력
 # 힌트(리스트에 가장 큰값을 가지고오는 함수가 있음)
 # nums = list(map(int, input().split()))
-# print(max(nums))
+# max(nums return)
+# print(nums())
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
@@ -10,6 +11,9 @@
 # 힌트(리스트에 가장 큰값과 가장 작은 값을 가지고오는 함수가 있음)
 # nums = list(map(int, input().split()))
 # print(int(max(nums)-min(nums)))
+# nums = list(map(int, input().split()))
+# solution = max(nums return) - min (nums return)
+# print(solution())
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -26,6 +30,7 @@
 # (단, 입력으로 주어지는 정수는 1000을 넘지 않는다.)
 # nums = list(map(int, input().split()))
 # print(int(100<min(nums)))
+# print(solution = int(100<min(nums)))
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -35,7 +40,8 @@
 # nums = list(map(int, input().split()))
 # nums.sort()
 # print(nums.reverse())
-
+# solution = nums.sort()
+# print(solution.reverse())
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
